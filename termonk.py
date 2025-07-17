@@ -105,8 +105,8 @@ def banner():
     print()
     print(f"{Fore.LIGHTRED_EX}{banner}{Style.RESET_ALL}")
     print()
-    print(f"{Fore.LIGHTRED_EX}{Style.BRIGHT}[+]  GitHub     :  PavinDas{Style.RESET_ALL}")
-    print(f"{Fore.LIGHTRED_EX}{Style.BRIGHT}[+]  Instagram  :  pavin__das{Style.RESET_ALL}")
+    print(f"{Fore.LIGHTRED_EX}{Style.BRIGHT} [+]  GitHub     :  PavinDas{Style.RESET_ALL}")
+    print(f"{Fore.LIGHTRED_EX}{Style.BRIGHT} [+]  Instagram  :  pavin__das{Style.RESET_ALL}")
     print()
 
 if __name__ == "__main__":
