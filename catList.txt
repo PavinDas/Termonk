@@ -1,0 +1,16 @@
+Exit
+Essential Packages
+Networking Tools
+Programming Languages
+Development Tools
+Text Editors
+Compression/Archiving
+Security/Cryptography
+Database Client
+Remote Access 
+File Transfer
+Terminal Multiplexer
+Version Control
+System Tools
+Misc Utilities
+Python Package Installer
