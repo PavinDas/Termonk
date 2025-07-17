@@ -39,10 +39,11 @@ class Termonk:
         try:
             ind = toolNum - 1
             tool.append(lists[ind])
-            Termonk.installTool(tool)
         except:
             print(f"{Fore.RED}\n[-] Invalid Choice [-]{Style.RESET_ALL}")
             subprocess.run("exit", shell=True)
+        if ind <= len(lists):
+            Termonk.installTool(tool)
 
 
 
