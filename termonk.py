@@ -19,7 +19,7 @@ class Termonk:
     def listTools(lists):
         if platform.system() == "Windows":
             subprocess.run(["cls"], shell=True)
-        else:  # For Linux, macOS, and other Unix-like systems
+        else: 
             subprocess.run(["clear"], shell=True)
         banner()
         tool = []
@@ -120,13 +120,15 @@ def banner():
     print()
 
 if __name__ == "__main__":
+
+    if platform.system() == "Windows":
+        subprocess.run(["cls"], shell=True)
+    else:
+        subprocess.run(["clear"], shell=True)
+
     banner()
 
     # ! Catergory List
     catList = open("catList.txt","r")
 
-    if platform.system() == "Windows":
-        subprocess.run(["cls"], shell=True)
-    else:  # For Linux, macOS, and other Unix-like systems
-        subprocess.run(["clear"], shell=True)
     Termonk.listCategory(catList)
