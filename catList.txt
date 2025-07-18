@@ -14,3 +14,7 @@ Version Control
 System Tools
 Misc Utilities
 Python Package Installer
+Image/Media
+GUI
+Games
+Network Hacking [root required]

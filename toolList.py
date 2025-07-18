@@ -9,22 +9,26 @@ essential = [
     'curl',
     'wget',
     'tar',
-    'zip/unzip',
     'rsync',
     'busybox',
-    'ncurses-utils',
+    'htop'
     'git'
+    'ncurses-utils',
 ]
 
 networking = [
     'openssh',
+    'inetutils',
+    'net-tools',
     'namp',
     'netcat',
     'tsocks',
     'proxychains-ng',
+    'traceroute',
+    'mtr',
     'whois',
     'dnsutils',
-    'mtr',
+    'iproute2',
     'torsocks',
     'tor'
 ]
@@ -48,6 +52,8 @@ programming = [
 development = [
     'make',
     'cmake',
+    'gdb'
+    'man',
     'automake',
     'pkg-config',
     'autoconf',
@@ -57,6 +63,11 @@ development = [
 ]
 
 text = [
+    'nano',
+    'vim',
+    'emacs',
+    'ne',
+    'micro',
     'sed',
     'awk',
     'jq',
@@ -68,6 +79,12 @@ text = [
 ]
 
 compression = [
+    'zip',
+    'unzip',
+    'tar',
+    'gzip',
+    'unrar',
+    'lrzip',
     'p7zip',
     'xz-utils',
     'bzip2',
@@ -75,6 +92,9 @@ compression = [
 ]
 
 security = [
+    'openssl',
+    'hashdeep',
+    'nmap',
     'gnupg',
     'openssl-tool',
     'hashcat',
@@ -91,16 +111,24 @@ database = [
 ]
 
 remote = [
+    'openssh',
     'mosh',
     'dropbear',
+    'rdesktop',
+    'vncviewer',
     'autossh',
     'sshpass'
 ]
 
 file = [
-    'rclone',
+    'rcync',
+    'wget',
+    'curl',
+    'ftp',
     'lftp',
+    'rclone',
     'aria2'
+    'scp'
 ]
 
 terminal = [
@@ -116,6 +144,14 @@ vcs = [
 ]
 
 system = [
+    'htop',
+    'itop',
+    'iostat',
+    'nmon',
+    'sysstat',
+    'tree',
+    'busybox',
+    'time',
     'procps',
     'psmisc'
     'lsof',
@@ -129,10 +165,41 @@ misc = [
     'cowsay',
     'sl',
     'neofetch',
-    'fortune'
+    'fortune',
+    'lolcat',
+    'jq',
+    'mc'
 ]
 
 pypackage = [
+    'python-pip',
     'pip',
     'pip2'
+]
+
+media = [
+    'ffmeg',
+    'imagemagick',
+    'exiftool',
+    'zbarimg'
+]
+
+gui = [
+    'tigervnc',
+    'x11-repo',
+    'xfce4'
+]
+
+games = [
+    'nethack',
+    'moon-buggy',
+    'nsnake'
+]
+
+nethack = [
+    'aircrack-ng',
+    'ettercap',
+    'dsniff',
+    'tcpdump',
+    'reaver'
 ]

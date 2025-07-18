@@ -89,6 +89,14 @@ class Termonk:
             return Termonk.listTools(ts.misc)
         elif catNum == '15':
             return Termonk.listTools(ts.pypackage)
+        elif catNum == '16':
+            return Termonk.listTools(ts.media)
+        elif catNum == '17':
+            return Termonk.listTools(ts.gui)
+        elif catNum == '18':
+            return Termonk.listTools(ts.games)
+        elif catNum == '19':
+            return Termonk.listTools(ts.nethack)
         else:
             print(f"{Fore.RED}\n[-] Invalid Choice [-]{Style.RESET_ALL}")
             subprocess.run("exit", shell=True)
