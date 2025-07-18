@@ -42,8 +42,12 @@ class Termonk:
         except:
             print(f"{Fore.RED}\n[-] Invalid Choice [-]{Style.RESET_ALL}")
             subprocess.run("exit", shell=True)
-        if ind <= len(lists):
-            Termonk.installTool(tool)
+        try:
+            if ind <= len(lists):
+                Termonk.installTool(tool)
+        except:
+            print(f"{Fore.RED}\n[-] Invalid Choice [-]{Style.RESET_ALL}")
+            subprocess.run("exit", shell=True)
 
 
 
