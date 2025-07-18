@@ -125,4 +125,8 @@ if __name__ == "__main__":
     # ! Catergory List
     catList = open("catList.txt","r")
 
+    if platform.system() == "Windows":
+        subprocess.run(["cls"], shell=True)
+    else:  # For Linux, macOS, and other Unix-like systems
+        subprocess.run(["clear"], shell=True)
     Termonk.listCategory(catList)
