@@ -51,6 +51,7 @@ class Termonk:
         try:
             subprocess.run(["apt", "install", tool[1], "-y"], check=True, capture_output=True, text=True)
             print(f"{Fore.GREEN}\n[+] .... {tool[1]} installed successfully .... [+]{Style.RESET_ALL}")
+            print(f"{Fore.GREEN}\n Run the tool: {Fore.LIGHTGREEN_EX} {tool[1]} -h {Style.RESET_ALL}")
         except subprocess.CalledProcessError as e:
             print(f"{Fore.RED}\n{tool[1]} installation failed: {e.stderr}{Style.RESET_ALL}")
 
