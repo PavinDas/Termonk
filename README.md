@@ -1,6 +1,6 @@
 # Termonk
-<img src="https://socialify.git.ci/PavinDas/Termonk/image?description=1&font=KoHo&language=1&name=1&owner=1&pattern=Solid&theme=Dark" alt="Socket" width="640" height="320" />
 Termonk is a simple CLI tool built for Termux that helps you browse and install essential Termux packages easily and efficiently. It presents a categorized list of tools and utilities and lets you install any of them with just a few keystrokes.
+<img src="https://socialify.git.ci/PavinDas/Termonk/image?description=1&font=KoHo&language=1&name=1&owner=1&pattern=Solid&theme=Dark" alt="Socket" width="640" height="320" />
 
 ## Features
 - Categorized list of Temux packages
