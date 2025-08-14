@@ -58,6 +58,8 @@ Termonk currently supports the following categories:
 2. Clone the repository:
 	``` 
 	git clone https://github.com/PavinDas/Termonk
+	```
+	```
 	cd Termonk
 	```
 3.  Run the tool:
